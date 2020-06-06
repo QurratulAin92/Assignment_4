@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+
+    <h1>Al-Noor Academy</h1>
+    <p class="redg">(Regd School)</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+       
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+
+           
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="image.html">Images</a> 
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="onlineform.html">Online Forms</a> 
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+            
+          </ul>
+            
+        </div>
+        <span>
+            <a href="https://www.facebook.com"><img src="fb.png" height="20px" width="20px" class="image" /></a>
+            <a href="https://www.instagram.com"><img src="instagram.png" height="20px" width="20px" class="image" /></a>
+            <a href="https://www.youtube.com"><img src="youTube.png" height="20px" width="20px" class="image" /></a>
+            <a href=""><img src="whatsapp.png" height="20px" width="20px" class="image" /></a>
+            <a href="https://www.twitter.com"><img src="twitter.png"  height="20px" width="20px" class="image"  alt=""></a>
+           </span>
+       
+      </nav>
+      <h1 align = "center" class="b-heading">STUDENT REGISTRATION FORM</h1>  
+      <form id="top" action="submit.html"> 
+    
+       
+       
+       <table id= "regform">
+              <tr>
+                  <td>FIRSTNAME:</td>
+                  <td><input required type="text" name="username" placeholder="Enter first name"maxlength="30">(max 30 characters a-z and A-Z)</td>
+              </tr>
+              <tr>
+               <td>LASTNAME:</td>
+               <td><input required type="text" name="lastname" placeholder="Enter Last name"maxlength="30">(max 30 characters a-z and A-Z)</td>
+           </tr>
+           <tr>
+               <td>DATE OF BIRTH</td>
+               <td><input required type="date" name="date" ></td>
+   
+           </tr>
+           <tr>
+               <td>Email ID:</td>
+               <td><input required type="email" name="emaail" placeholder="Enter email address"></td>
+           </tr> 
+           <tr>
+               <td>MOBILE NUMBER:</td>
+               <td><input required type="text" name="mobile number" placeholder="Enter mobile number"maxlength="11">(11 digit number)</td>
+           </tr>
+           <tr>
+               <td>GENDER</td>
+               <td>
+                   Male <input type="radio" name="gender" value ="male">
+                   Female <input type="radio" name="gender" value ="female"> 
+               </td>
+           </tr>
+           <tr>
+               <td>ADDRESS</td>
+               <td><textarea name="address" cols="30" rows="3" ></textarea></td>
+           </tr>
+           <tr>
+               <td>CITY:</td>
+               <td><input required type="text" name="city" placeholder="Enter city name"maxlength="30">(max 30 characters a-z and A-Z)</td>
+           </tr>
+           <tr>
+               <td>PIN CODE:</td>
+               <td><input required type="password" name="pincode" placeholder="Enter pincode"maxlength="6">(6 digit number)</td>
+           </tr>
+           <tr>
+               <td>STATE:</td>
+               <td><input required type="text" name="state" placeholder="Enter state"maxlength="30">(max 30 characters a-z and A-Z)</td>
+           </tr>
+           <tr>
+               <td>COUNTRY:</td>
+               <td><input required type="text" name="country" placeholder="Enter country"maxlength="30"></td>
+           </tr>
+           <tr>
+               <td>HOBBIES</td>
+               <td>Drawing<input type="checkbox" name="hobby" value="drawing">
+                   Singing<input type="checkbox" name="hobby" value="singing">
+                   Dancing<input type="checkbox" name="hobby" value="Dancing">
+                   Sketching<input type="checkbox" name="hobby" value="Sketching"><br>
+                   Others<input type="checkbox" name="hobby" value="Others">
+                   <input type="text"></td>
+           </tr>
+           <tr>
+               <td>QUALIFICATION</td>
+               <td>
+                   <table>
+                       <tr>
+                           <th>SL NO.</th>
+                           <th>Examination</th>
+                           <th>Board</th>
+                           <th>Percentage</th>
+                           <th>Year Of Passing</th>
+                       </tr>
+                       <tr>
+                           <td>1</td>
+                           <td>Class X</td>
+                           <td><input type="text"></td>
+                           <td><input type="number"></td>
+                           <td><input type="text"></td>
+                       </tr>
+                       <tr>
+                           <td>2</td>
+                           <td>Class XII</td>
+                           <td><input type="text"></td>
+                           <td><input type="number"></td>
+                           <td><input type="text"></td>
+                       </tr>
+                       <tr>
+                           <td>3</td>
+                           <td>Graduation</td>
+                           <td><input type="text"></td>
+                           <td><input type="number"></td>
+                           <td><input type="text"></td>
+                       </tr>
+                       <tr>
+                           <td>4</td>
+                           <td>Masters</td>
+                           <td><input type="text"></td>
+                           <td><input type="number"></td>
+                           <td><input type="text"></td>
+                       </tr>
+                       <tr>
+                           <td></td>
+                           <td></td>
+                           <td align="center">(10 char max)</td>
+                           <td align="center">(upto 2 decimal)</td>
+                           <td></td>
+                       </tr>
+                   </table>
+               </td>
+           </tr>
+           <tr>
+               <td>COURSES <br> APPLIED FOR</td>
+               <td><b>BACHLOR</b> : BCA<input type="radio" name="course" value="BCA">
+                B.Com<input type="radio" name="course" value="B.Com">
+                B.Sc<input type="radio" name="course" value="B.Sc">
+                B.A<input type="radio" name="corse" value="B.A">
+              </td>
+            </tr>
+               
+            <tr> 
+              <td></td>
+              <td><b>INTERMEDIATE</b> :Science<input type="radio" name="course" value="BCA">
+                Arts<input type="radio" name="course" value="B.Com">
+                Engineering<input type="radio" name="course" value="B.Sc">
+                Commerce<input type="radio" name="course" value="B.A">
+              </td>
+              </tr>
+
+           
+              <tr> 
+              <td></td>
+              <td><b>MATRICULATION</b>: Science<input type="radio" name="course" value="BCA">
+                General<input type="radio" name="course" value="B.Com">
+                O'Levels<input type="radio" name="course" value="B.Sc">
+                Computer Science <input type="radio" name="course" value="B.A">
+              </td>
+                    
+              
+           
+            </tr>
+            <tr> 
+               <td></td> 
+              <td><b>Masters :</b>Economics<input type="radio" name="course" value="BCA">
+                English<input type="radio" name="course" value="B.Com">
+                Islamic Studies<input type="radio" name="course" value="B.Sc">
+                Computer Science <input type="radio" name="course" value="B.A">
+            </td>
+            </tr> 
+            
+           
+           
+          </table>
+          
+          <p class="submit1">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+          </p>
+         
+
+
+          
+         
+        
+         
+      </form>
+   
+   
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+            
+
+
+</body>
+</html>
