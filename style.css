@@ -1,0 +1,877 @@
+
+.redg{
+    text-align: center;
+    font-size: 50px;
+    color: green;
+}
+
+
+h1{
+    font-size: 120px;
+    color: green;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow:5px 5px darkslategray;
+    text-align: center;
+}
+img{
+    text-align: center;
+}
+.navbar{
+    background-color: lightgreen !important;
+    
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+}
+ .d-block{
+    height: 550px !important;
+    width: 1000px !important;
+
+} 
+
+.div7{
+    background-color: rgba(5, 211, 74, 0.74) !important;
+    color: white;
+    font-size: 20px;
+    border-spacing: 5px 5px;
+    width: 350px;
+    height: 80px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 22px;
+    padding-bottom: 30px;
+    margin: 10px 15px;
+    font-weight: bold;
+}
+body{
+    background-color: rgba(23, 182, 255, 0.205);
+}
+.t1{
+    display: flex;
+    justify-content: center;
+}
+.heading1{
+    text-align: center;
+    padding-left:300px;
+    padding-right: 300px;
+    font-size: 45px;
+    text-shadow: 5px 5px darkgray;
+    font-weight: bold;
+}
+.intro{
+    text-align: center;
+    padding-left:300px;
+    padding-right: 300px;
+    font-weight: bold;
+    font-size: 21px;
+}
+.footer{
+    background-color: rgb(10, 107, 75);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+    
+    height: 55px;
+}
+.picture2{
+    display:inline-block;
+}
+.picture1{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.a-heading{
+   font-size: 50px;
+   text-shadow:3px 3px darkslategray;
+   text-align: center;
+   color: rgb(34, 163, 99);
+}
+
+.b-heading{
+    font-size: 50px;
+    text-shadow:3px 3px darkslategray;
+    text-align: center;
+    color:rgb(34, 163, 99);
+
+}
+.a{
+    font-size: 25px;
+    text-align: center;
+}
+.b{
+    color:rgb(34, 163, 99);
+    
+}
+.formlink{
+    color: white;
+    text-decoration: underline;
+}
+#regform{
+   margin: 40px 200px 40px 200px;
+   background-color: rgb(34, 163, 99);
+   color: white;
+   padding: 20px 20px 20px 20px;
+   
+}
+.c-heading{
+    font-size: 23px;
+    text-shadow: none;
+    font-weight: bold;
+    color: white;
+}
+.div1{
+    
+    background-color:rgb(34, 163, 99);
+}
+.col{
+    display: flex;
+    flex-direction: row;
+}
+.div2{
+    background-color: rgb(34, 163, 99);
+    color: white;
+    width: 245px;
+    padding-left: 18px;
+}
+.heading-d{
+    font-size: 40px;
+    text-shadow: none;
+    color: rgb(34, 163, 99);
+    
+}
+.fid{
+    font-size: 25px;
+    
+}
+.subhead{
+    font-size: 35px;
+}
+.br-name{
+    font-size: 20px;
+}
+.webid{
+    font-size: 30px;
+    color: white;
+}
+.submit1{
+    text-align: center;
+}
+.logo{
+    text-align: center;
+}
+#ab{
+    text-align: center;
+}
+@media only screen and  (max-width:1050px){
+    h1{
+        font-size: 80px;
+        color: green;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow:2px 2px darkslategray;
+        text-align: center;
+
+    }
+    .d-block{
+        height: 500px !important;
+        width: 800px !important;
+    
+    } 
+    .div2{
+        height: 500px !important;
+        width: 200px;
+        font-size: 13px;
+        
+    }
+    .tr1{
+        display: flex;
+        flex-direction: row;
+    }
+    .div7{
+        width: 200px;
+        height: 100px;
+    }
+    
+    
+    
+}
+@media only screen and (max-width: 1015px){
+    .d-block{
+        height: 400px !important;
+        width: 750px !important;
+    }
+    .div2{
+        height: 460px !important;
+        width: 200px;
+        font-size: 11px;
+        
+    }
+    #regform{
+        background-color:  rgb(34, 163, 99);
+       color: white;
+       padding: 20px 20px 20px 20px;
+       margin: 10px 5px 10px 5px;
+   
+    }
+}
+    
+@media only screen and  (max-width:1000px){
+    h1{
+        font-size: 75px;
+        color: green;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow:2px 2px darkslategray;
+        text-align: center;
+    }
+    .heading1{
+        text-align: left;
+        padding-left:50px;
+        padding-right: 50px;
+        font-size: 30px;
+        text-shadow: 2px 2px darkgray;
+        font-weight: bold;
+    }
+    .intro{
+        text-align: left;
+        padding-left:50px;
+        padding-right: 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    
+    
+}
+@media only screen and  (max-width:950px){
+    .d-block{
+        height: 380px !important;
+        width: 670px !important;
+    }
+    .div2{
+        height: 420px !important;
+        width: 200px;
+        font-size: 10px;
+        
+        
+    }
+    .submit1{
+        text-align: left;
+    }
+}
+
+@media only screen and  (max-width:938px){
+    h1{
+        font-size: 70px;
+        color: green;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow:2px 2px darkslategray;
+        text-align: center;
+    }
+    
+}
+@media only screen and  (max-width:880px){
+    h1{
+        font-size: 65px;
+        color: green;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-shadow:2px 2px darkslategray;
+        text-align: center;
+    }
+    .div2{
+        height: 460px !important;
+        width: 100%;
+        font-size: 15px;
+      
+    }
+    .d-block{
+        height: 380px !important;
+        width: 100% !important;
+    } 
+    .heading1 , .a-heading , .b-heading{
+        text-align: left;
+        padding-left:50px;
+        padding-right: 50px;
+        font-size: 40px;
+        text-shadow: 2px 2px darkgray;
+        font-weight: bold;
+    }
+    .intro{
+        text-align: left;
+        padding-left:50px;
+        padding-right: 50px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .footer , .webid{
+        background-color:  rgba(5, 211, 74, 0.74);
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 34px;
+        
+        height: 55px;
+    }
+    #regform{
+        background-color:  rgba(5, 211, 74, 0.74);
+    color: white;
+    font-size: 10px;
+   
+    }
+    
+    @media only screen and  (max-width:820px){
+        h1{
+            font-size: 60px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            text-align: center;
+        }
+        
+    }
+    @media only screen and  (max-width:755px){
+        h1{
+            font-size: 55px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            text-align: center;
+        }
+        .a-image{
+            width: 400px;
+            height: 250px;
+        }
+        #ab{
+            text-align: left;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+    }
+    @media only screen and  (max-width:720px){
+      .tr1{
+          display: flex;
+          flex-direction: column;
+      }
+      .div7{
+          width: 400px;
+          height: 100px;
+     }
+       .footer ,.webid{
+           
+         background-color:  rgba(5, 211, 74, 0.74);
+         color: white;
+         text-align: center;
+         font-weight: bold;
+         font-size: 20px;
+    
+         height: 30px;
+       }        
+       .f-i{
+           height: 20px;
+           width: 30px;
+       }
+       .redg{
+           font-size: 20px;
+       }
+    }
+    
+    @media only screen and  (max-width:700px){
+        h1{
+            font-size: 50px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            text-align: center;
+        }
+        .subhead{
+            font-size: 20px;
+            
+        }
+        .heading-d{
+            font-size: 25px;
+        }
+        .fid{
+            font-size: 15px;
+        }
+        .picture2{
+            display: flex;
+            flex-direction: column;
+            height: 400px;
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+        .picture1{
+            height: 400px;
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+    }
+    @media only screen and  (max-width:635px){
+        h1{
+            font-size: 45px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            text-align: center;
+        }
+        #regform{
+            font-size: 8px;
+        }
+        
+    }
+    @media only screen and  (max-width:570px){
+        h1{
+            font-size: 40px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            text-align: center;
+        }
+        .footerimage{
+            height: 210px;
+            width: 100%;
+            margin-left: 2px;
+            margin-right: 2px;
+           
+        }
+    }
+    @media only screen and  (max-width:510px){
+        h1{
+            font-size: 38px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            text-align: center;
+        }
+        .picture2{
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+        .picture1{
+            height: 300px;
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        
+    }
+    @media only screen and  (max-width:485px){
+        h1{
+            font-size: 35px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            text-align: center;
+        }
+        .heading1 , .a-heading , .b-heading{
+            text-align: left;
+            padding-left:50px;
+            padding-right: 50px;
+            font-size: 25px;
+            text-shadow: 2px 2px darkgray;
+            font-weight: bold;
+        }
+        .intro{
+            text-align: left;
+            padding-left:20px;
+            padding-right: 20px;
+            font-weight: bold;
+            font-size: 15px;
+        }
+        #regform{
+            font-size: 6px;
+        }
+        
+    }
+    @media only screen and  (max-width:450px){
+        h1{
+            font-size: 30px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            font-weight: bold;
+            text-align: center;
+        }
+        .d-block{
+            height: 250px !important;
+            width: 100% !important;
+        }
+        .a-image{
+            width: 250px;
+            height: 150px;
+        }
+        
+    }
+    @media only screen and  (max-width:430px){
+        .div7{
+            height: 100px;
+            width: 100%;
+            margin-left: 2px;
+            margin-right: 2px;
+            
+        }
+        .footer , .webid{
+           
+            background-color:  rgba(5, 211, 74, 0.74);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 15px;
+       
+            height: 20px;
+          }        
+          .f-i{
+              height: 15px;
+              width: 20px;
+          }
+          .subhead{
+            font-size: 15px;
+            
+        }
+        .heading-d{
+            font-size: 20px;
+        }
+        .fid{
+            font-size: 12px;
+        }
+
+    }
+    @media only screen and  (max-width:350px){
+        .div7{
+            height: 120px;
+            width: 300px;
+            margin-left: 2px;
+            margin-right: 2px;
+            
+        }
+        .picture2{
+            display: flex;
+            flex-direction: column;
+            height: 150px;
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+        .picture1{
+            height: 150px;
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        #regform{
+            font-size: 4px;
+        }
+        .heading1 , .a-heading , .b-heading{
+            text-align: left;
+            padding-left:6px;
+            padding-right: 6px;
+            font-size: 17px;
+            text-shadow: 2px 2px darkgray;
+            font-weight: bold;
+        }
+        .intro{
+            text-align: left;
+            padding-left:5px;
+            padding-right: 5px;
+            font-weight: bold;
+            font-size: 12px;
+        }
+    }
+    
+    
+
+@media only screen and  (max-width:320px){
+        .div7{
+            height: 130px;
+            width: 200px;
+            margin-left: 2px;
+            margin-right: 2px;
+            
+        }
+        .footer , .webid{
+           
+            background-color:  rgba(5, 211, 74, 0.74);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+       
+            height: 15px;
+          }
+          .subhead{
+            font-size: 14px;
+            
+        }
+        #regform{
+            font-size: 3pxt;
+        }
+        .heading-d{
+            font-size: 18px;
+        }
+        .fid{
+            font-size: 10px;
+        }
+            
+          .f-i{
+              height: 10px;
+              width: 15px;
+          }
+    }
+    
+
+    @media only screen and  (max-width:290px){
+        h1{
+            font-size: 28px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            font-weight: bold;
+            text-align: center;
+        }
+        .d-block{
+            height: 200px !important;
+            width: 100% !important;
+        }
+     
+        .image{
+            display: none;
+        }
+        .footer , .webid{
+           
+            background-color:  rgb(34, 163, 99);
+            color: white;
+            text-align: center;
+            font-weight: bold;
+            font-size: 10px;
+       
+            height: 20px;
+          }        
+          .f-i{
+              height: 12px;
+              width: 25px;
+          }
+          .subhead{
+            font-size: 10px;
+            
+        }
+        .heading-d{
+            font-size: 14px;
+        }
+        .fid{
+            font-size: 8px;
+        }
+        .a-image{
+            width: 125px;
+            height: 100px;
+        }
+    }
+
+   
+    @media only screen and  (max-width:240px){
+        h1{
+            font-size: 25px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            font-weight: bold;
+            text-align: center;
+        }
+        .d-block{
+            height: 150px !important;
+            width: 100% !important;
+        }
+        .footer , .webid{
+           
+            background-color:  rgb(34, 163, 99);
+            color: white;
+            text-align: center;
+            font-weight: normal;
+            font-size: 7px;
+       
+            height: 18px;
+          }        
+          .f-i{
+              height: 10px;
+              width: 15px;
+          }
+          .footerimage{
+            height: 90px;
+            width: 100%;
+            margin-left: 2px;
+            margin-right: 2px;
+           
+          }
+    }
+    @media only screen and  (max-width:290px){
+        h1{
+            font-size: 28px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            font-weight: bold;
+            text-align: center;
+        }
+        .d-block{
+            height: 200px !important;
+            width: 100% !important;
+        }
+        #regform{
+            font-size: 3px;
+        }
+        
+    }
+    @media only screen and  (max-width:220px){
+        h1{
+            font-size: 25px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            font-weight: bold;
+            text-align: center;
+        }
+        .d-block{
+            height: 130px !important;
+            width: 100% !important;
+        }
+        .div7{
+            height: 150px;
+            width: 150px;
+            margin-left: 5px;
+            margin-right: 5px;
+            
+        }
+        .subhead{
+            font-size: 10px;
+            
+        }
+        .heading-d{
+            font-size: 14px;
+        }
+        .fid{
+            font-size: 6px;
+        }
+        .br-name{
+            font-size: 10px;
+        }
+        .picture2{
+            display: flex;
+            flex-direction: column;
+            height: 80px;
+            width: 100%;
+            margin-left: 5px;
+            margin-right: 5px;
+
+        }
+        .picture1{
+            height: 80px;
+            width: 100%;
+            
+        }
+    @media only screen and (max-width: 176px){
+        h1{
+            font-size: 22px;
+            color: green;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-shadow:2px 2px darkslategray;
+            font-weight: bold;
+            text-align: center;
+        }
+        .d-block{
+            height: 110px !important;
+            width: 100% !important;
+        }
+        .div7{
+            height: 180px;
+            width: 120px;
+            margin-left: 2px;
+            margin-right: 2px;
+            font-size: 15px;
+        }
+        .smlogo{
+            display: none;
+        }
+        .c-heading{
+            font-size: 12px;
+        }
+        .heading1 , a-heading , .b-heading{
+            text-align: left;
+            padding-left:1px;
+            padding-right: 1px;
+            font-size: 14px;
+            text-shadow: 2px 2px darkgray;
+            font-weight: bold;
+        }
+        .intro{
+            text-align: left;
+            padding-left:1px;
+            padding-right: 1px;
+            font-weight: bold;
+            font-size: 8px;
+        }
+        .footer , .webid{
+           
+            background-color:  rgb(34, 163, 99);
+            color: white;
+            text-align: center;
+            font-weight: normal;
+            font-size: 6px;
+       
+            height: 15px;
+          }        
+          .f-i{
+              height: 8px;
+              width: 12px;
+          }
+          #regform{
+              font-size: 2px;
+          }
+        
+        .subhead{
+            font-size: 8px;
+            
+        }
+        .heading-d{
+            font-size: 11px;
+        }
+        .fid{
+            font-size: 5px;
+        }
+        .br-name{
+            font-size: 10px;
+        }
+              
+    }
+    
+    @media only screen and  (max-width:700px){
+        .logoimage ,.lo{
+           width: 150px !important;
+           height: 120px !important;
+           
+        }
+    }
+    @media only screen and  (max-width:450px){
+        .logoimage , .lo{
+           width: 100px !important;
+           height: 80px !important;
+        }
+    }
+    
+
+
+
+
+
+
+
+
